@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MirAI</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+      
+
+    }
+
+    body {
+background-color: #35b0cb;
+
+
+      color: #333;
+      line-height: 1.6;
+    }
+
+
+    header {
+      background: #0e91d7;
+      height: 100px;
+      color: rgb(211, 214, 13);
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+    }
+header img{height: 90px;
+border: #109b92;
+ border-radius: 45px;}
+ header h1{
+    color: #0c1414;
+    margin-left: -120px;
+    font-family: cursive;
+    text-decoration: wavy;
+ }
+
+    nav a {
+      color: rgb(3, 3, 3);
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size:20px ;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+
+    .hero {
+      background: url('https://picsum.photos/1200/500?travel') center/cover no-repeat;
+      color: rgb(249, 249, 249);
+      text-align: center;
+      padding: 120px 20px;
+      height: 550px;
+    }
+    .hero:hover{
+        scale: 1;
+    }
+
+    .hero h2 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 25px;
+      background: #24285f;
+      color: white;
+      font-weight: bold;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      background: #2409a8;
+    }
+.bn{display: inline-block;
+      padding: 12px 25px;
+      background: #0c38bb;
+      color: white;
+      font-weight: bold;
+      border-radius: 6px;
+      text-decoration: none;}
+      .bn:hover{
+        background-color: #333;
+      }
+
+    .packages {
+      padding: 50px 20px;
+      text-align: center;
+    }
+    label{
+        color: #0c1414;
+    }
+    .packages h2 {
+      margin-bottom: 30px;
+      font-size: 28px;
+      color: #050505;
+      font-family: fantasy;
+      font-weight: bold;
+    }
+
+    .cards {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      width: 290px;
+      overflow: hidden;
+      text-align: left;
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .card img:hover{
+        scale: 1;
+    }
+
+    .card-content {
+      padding: 15px;
+    }
+
+    .card-content h3 {
+      margin-bottom: 10px;
+    }
+
+    .card-content p {
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+
+    .card-content .price {
+      font-weight: bold;
+      color: #ff6600;
+    }
+    #b{
+        text-decoration: dotted;
+    }
+
+    footer {
+      background: #0c0808;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+
+  <header>
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgwFP98K1XQmDNU8TCX0WU5ITpzURxQrjv9g&s" alt="">
+    <H1>:THE SPECTRUM OF HEAVENLY PLACES</H1>
+    
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Destinations</a>
+      <a href="#">Packages</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+
+  <section class="hero">
+    <h2>Discover Your Next Adventure</h2>
+    <p>Exclusive travel packages tailored for you</p>
+    <a href="#" class="btn">Book Now</a><br>
+    <br>
+    <br>
+    <a href="https://www.makemytrip.com/" class="bn">🛩️SEARCH</a>
+  </section>
+
+
+  <section class="packages">
+    <h2>Popular Packages</h2>
+<label>
+  <input type="checkbox">
+  <a href="https://pickyourtrail.com/vacations/beach-and-water-villa-packages-maldives?utm_source=google&utm_medium=cpc&utm_campaign=Google_PPC-Search_MaldivesWaterVilla-Paid-Packages-LP&utm_keyword=maldives%20resorts%20packages&utm_content=14386345825&utm_feeditemid=157640796644&utm_targetid=kwd-7502994086&utm_creative=682259968748&utm_adposition=&gad_source=1&gad_campaignid=14386345825&gbraid=0AAAAACsyCa8RvrXLhPUv1PpS06a61s4DW&gclid=CjwKCAjwobnGBhBNEiwAu2mpFE7w_Oqi9H9NZmOlnoH3CPEgcsiwRx7QM5o1jOBT-CtuL4cu3KUAnxoCqFYQAvD_BwE" target="_blank">Maldives</a>
+</label>
+<label>
+  <input type="checkbox">
+  <a href="https://orbisways.com/en/the-swiss-alps-in-southern-bern-5-days/?gad_source=1&gad_campaignid=21444217622&gbraid=0AAAAACIxNzNqv6TEmnjV07I1GNndgm6ix&gclid=CjwKCAjwobnGBhBNEiwAu2mpFF8BCdLlU5JxGCtUrEcg7lsuolUQAmArysQ0fRYsBGEa9yme013QlhoCUSYQAvD_BwE" target="_blank">Swiss</a>
+</label>
+<label>
+  <input type="checkbox">
+  <a href="https://www.booking.com/city/fr/paris.en.html?aid=373420;label=city-paris-DYaW8Bh0Qb6fbmvlCuoWMwS388233747326:pl:ta:p1:p2:ac:ap:neg:fi:tikwd-332842575835:lp9062010:li:dec:dm:ppccp=UmFuZG9tSVYkc2RlIyh9Ydj4ck6nIj5YRjPru0SpaEk;ws=&gad_source=1&gad_campaignid=166086260&gbraid=0AAAAAD_Ls1Jk_uIKHskBQfSLVj0G86IHA&gclid=CjwKCAjwobnGBhBNEiwAu2mpFDR6XM8DHTS_PMKa6-cbaX1u7UzSzO5PHgX5eQwIAhmD9C-Cm3HJrxoCun8QAvD_BwE" target="_blank">Paris</a>
+</label>
+<label>
+
+
+
+    <div class="cards">
+      <div class="card">
+        <img src="https://hikerwolf.com/wp-content/uploads/2020/05/WhatsApp-Image-2020-05-06-at-12.04.53-PM.jpeg" alt="Beach">
+        <div class="card-content">
+          <h3>Maldives Getaway</h3>
+          <p>5 Special Nights, 6 Days – Relax on the pristine beaches.
+            <br>
+            With Fests and Premium Prizes.
+          </p>
+          <p class="price">$999-/only</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://i.pinimg.com/736x/88/ed/60/88ed605d026d724b23352385f98b5fc0.jpg" alt="Mountains">
+        <div class="card-content">
+          <h3>Swiss Alps Tour</h3>
+          <p>7 Special Nights, 8 Days – Adventure in the snowy peaks.<br>
+            With 24X7 transportation facilities for exploring the cultural heritage.
+        
+        </p>
+          <p class="price">$1499-/only</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://picsum.photos/300/200?city" alt="City">
+        <div class="card-content">
+          <h3>Paris Escape</h3>
+          <p>4 Beloved Nights, 5 Days – Romance in the city of lights. <br>
+            With fully inclusive personal dates at beaches,hotels,anywhere according to you.
+        </p>
+          <p class="price">$2199-/only</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <footer>
+    <p>&copy; 2025 Mirai Travel Agency. All Rights Reserved.</p>
+  
+
+    <p> Contact:9943786864</p>
+  </footer>
+
+</body>
+</html>
